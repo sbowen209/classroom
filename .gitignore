@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+
+# LaTeX build noise from homework/. The .tex and the two .pdf files are the
+# artefacts worth keeping; .preview/ is rasterised pages for checking layout.
+homework/**/.preview/
+homework/**/*.aux
+homework/**/*.log
+homework/**/*.out
